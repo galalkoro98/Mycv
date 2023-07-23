@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles/Home.css";
 import { Shape } from "./Shape";
 
 export const Home: React.FC<{}> = () => {
@@ -16,7 +17,7 @@ export const Home: React.FC<{}> = () => {
           <span> Galal</span> Aspiring Junior Web Developer with a Passion for
           Creativity & IT Support Specialist"
         </h1>
-        <p className="home__description">
+        <p>
           I am a self-motivated individual who thrives on giving my all to any
           project I undertake. The thrill of successfully completing one project
           and eagerly moving on to the next one excites me. I am always looking
@@ -24,9 +25,7 @@ export const Home: React.FC<{}> = () => {
           passion and enthusiasm. My dedication to IT and my genuine enjoyment
           of learning drive me to continuously improve and expand my skills.
         </p>
-        <p className="home__motivation__description">
-          I'm a driven person by evaluation, development, and innovation.
-        </p>
+        <p>I'm a driven person by evaluation, development, and innovation.</p>
         <div className="home__download">
           <a href="link" className="home__btn">
             <span className="text__btn">Download CV</span>

@@ -1,0 +1,20 @@
+.section {
+    transition: all 0.4s ease-in-out;
+    background-color: black;
+}
+
+.sec1 {
+    transform: translateY(0) scale(1);
+    padding: 0 !important;
+}
+
+header {
+    min-height: 100vh;
+    color: white;
+    overflow: hidden;
+}
+
+.active {
+    display: block;
+    animation: scaleAnim 1s ease-in-out;
+}
