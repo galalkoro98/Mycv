@@ -2,7 +2,10 @@ import React from "react";
 
 import "./Controls.css";
 
+import useThemeButton from "../Hooks/Theme/useThemeButton";
+
 export const Controls: React.FC = () => {
+  const { handleThemeToggle, isLightMode } = useThemeButton();
   return (
     <>
       <div className="controls">
@@ -26,7 +29,10 @@ export const Controls: React.FC = () => {
         </div>
       </div>
 
-      <div className="theme-btn">
+      <div
+        className={`theme-btn ${isLightMode ? "light-mode" : ""}`}
+        onClick={handleThemeToggle}
+      >
         <i className="fas fa-adjust ico"></i>
       </div>
     </>
