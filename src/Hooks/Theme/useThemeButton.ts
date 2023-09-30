@@ -17,4 +17,3 @@ const useThemeButton = (): ThemeButtonReturnType => {
 };
 
 export default useThemeButton;
-
