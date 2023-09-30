@@ -9,3 +9,17 @@
     z-index: -1; 
     clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
 }
+
+
+@media screen and (max-width: 970px){
+    .home__left__header .h__shape{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    .home__left__header .h__shape{
+        display: none;
+    }
+}
