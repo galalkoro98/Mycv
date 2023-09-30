@@ -3,7 +3,7 @@ import "./Main.css";
 
 import { About } from "../About/About";
 
-export const Main: React.FC = () => {
+export const MainSections: React.FC = () => {
   return (
     <main>
       <About />
